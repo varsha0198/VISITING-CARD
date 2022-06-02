@@ -1,0 +1,257 @@
+{
+	"data": {
+		"fetchCard": {
+			"id": "1",
+			"name": "test0",
+			"email": "email@email",
+			"website": "test0.com",
+			"phone": "9518476230",
+			"address": "Address Address Address Address Address\nAddress Address Address Address Address Address\nAddress Address Address\nAddress",
+			"whatsapp": "9518476230",
+			"logo": "17f78aa06e445.png",
+			"link": "test0",
+			"cover": "17f78ab155d30.png",
+			"theme": "3",
+			"brochure": "17f78ab15081a.pdf",
+			"mappin": "g.co/test0?share",
+			"paylink": "test0.pay",
+			"bank": "Bank Name",
+			"ifsc": "IFSC Code",
+			"branch": "Branch Name",
+			"city": "Bank City",
+			"open": "10:00",
+			"close": "19:00",
+			"cname": null,
+			"cemail": null,
+			"cphone": null,
+			"services": [
+				{
+					"id": "1",
+					"title": "Service 1",
+					"offer": "123",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62a6e26.png"
+				},
+				{
+					"id": "2",
+					"title": "Service 2",
+					"offer": "234",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62a8945.jpeg"
+				},
+				{
+					"id": "3",
+					"title": "Service 3",
+					"offer": "345",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62a9853.jpg"
+				},
+				{
+					"id": "4",
+					"title": "Service 4",
+					"offer": "456",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62aa246.jpeg"
+				},
+				{
+					"id": "5",
+					"title": "Service 5",
+					"offer": "567",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62aa750.jpg"
+				},
+				{
+					"id": "6",
+					"title": "Service 6",
+					"offer": "678",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62aad46.jpg"
+				},
+				{
+					"id": "7",
+					"title": "Service 7",
+					"offer": "789",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62ac153.jpg"
+				},
+				{
+					"id": "8",
+					"title": "Service 8",
+					"offer": "890",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62acf55.png"
+				},
+				{
+					"id": "9",
+					"title": "Service 9",
+					"offer": "901",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62ad5f.jpeg"
+				},
+				{
+					"id": "10",
+					"title": "Service 10",
+					"offer": "987",
+					"sdesc": "Short Description",
+					"ldesc": "Long Description Long Description Long Description Long Description.",
+					"thumb": "17f78b62add3b.png"
+				}
+			],
+			"galleries": [
+				{
+					"id": "10",
+					"image": "17f78b66376d.png"
+				},
+				{
+					"id": "9",
+					"image": "17f78b6636f25.png"
+				},
+				{
+					"id": "8",
+					"image": "17f78b6636544.png"
+				},
+				{
+					"id": "7",
+					"image": "17f78b663604f.png"
+				},
+				{
+					"id": "6",
+					"image": "17f78b6635652.png"
+				},
+				{
+					"id": "5",
+					"image": "17f78b6634e4b.png"
+				},
+				{
+					"id": "4",
+					"image": "17f78b6634517.png"
+				},
+				{
+					"id": "3",
+					"image": "17f78b6633f5b.png"
+				},
+				{
+					"id": "2",
+					"image": "17f78b663262e.png"
+				},
+				{
+					"id": "1",
+					"image": "17f78b6631221.png"
+				}
+			],
+			"payments": [
+				{
+					"id": "10",
+					"type": "0",
+					"value": "9518476230"
+				},
+				{
+					"id": "11",
+					"type": "0",
+					"value": "9876543210"
+				},
+				{
+					"id": "12",
+					"type": "1",
+					"value": "9514876230"
+				},
+				{
+					"id": "13",
+					"type": "2",
+					"value": "9518476230"
+				},
+				{
+					"id": "14",
+					"type": "2",
+					"value": "9876543210"
+				},
+				{
+					"id": "15",
+					"type": "3",
+					"value": "9518476230"
+				},
+				{
+					"id": "16",
+					"type": "4",
+					"value": "9518476230"
+				},
+				{
+					"id": "17",
+					"type": "4",
+					"value": "9876543210"
+				},
+				{
+					"id": "18",
+					"type": "5",
+					"value": "test0.okupi0"
+				},
+				{
+					"id": "19",
+					"type": "0",
+					"value": "test0.okupi1"
+				}
+			],
+			"socials": [
+				{
+					"id": "1",
+					"type": "0",
+					"value": "test0"
+				},
+				{
+					"id": "2",
+					"type": "0",
+					"value": "test1"
+				},
+				{
+					"id": "3",
+					"type": "1",
+					"value": "test0"
+				},
+				{
+					"id": "4",
+					"type": "1",
+					"value": "test1"
+				},
+				{
+					"id": "5",
+					"type": "2",
+					"value": "test0"
+				},
+				{
+					"id": "6",
+					"type": "2",
+					"value": "test1"
+				},
+				{
+					"id": "7",
+					"type": "3",
+					"value": "test0"
+				},
+				{
+					"id": "8",
+					"type": "3",
+					"value": "test1"
+				},
+				{
+					"id": "9",
+					"type": "4",
+					"value": "test0"
+				},
+				{
+					"id": "10",
+					"type": "5",
+					"value": "test1"
+				}
+			]
+		}
+	}
+}
