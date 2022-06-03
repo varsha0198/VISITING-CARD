@@ -19,7 +19,7 @@ body {
     text-align: center;
     box-shadow: 1px 2px 15px #48484833;
     padding-bottom: 85px;
-    background-color: var(--third-color);
+    background-color: var(--white-color);
     background-attachment: fixed;
 }
 
@@ -249,9 +249,11 @@ a {
     font-family: LatoReguar;
     text-align: left;
     float : left;
+   
 }
 
 .share-btn .firstpage-md {
+    display: none;
     padding: 0;
     justify-content: center;
     margin: 10px -4px 0;
@@ -443,4 +445,11 @@ a {
 }
 p{
     font-size: 12px;
+}
+.QR-IMAGES{
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    height: 200px;
 }
