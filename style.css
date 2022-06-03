@@ -1,24 +1,20 @@
 :root {
     --primary-color: #4e046e;
     --secondry-color: #14b71f;
-    --third-color: #f98169;
     --white-color: #fff;
     --text-color: rgb(73, 71, 71);
     --text-gray: rgb(206, 197, 197);
     --black-color: #000;
-    --primary-font: 'Roboto', sans-serif;
-    --secondry-font: 'Quicksand', sans-serif;
 }
 
 body {
-    font-family: 'LatoRegular', sans-serif;
     margin: 0 auto;
     color: var(--text-color);
     text-decoration: none;
     max-width: 450px;
     text-align: center;
     box-shadow: 1px 2px 15px #48484833;
-    padding-bottom: 85px;
+    padding-bottom: 30px;
     background-color: var(--white-color);
     background-attachment: fixed;
 }
@@ -246,14 +242,12 @@ a {
     margin-left: 10px;
     font-size: 14px;
     display: inline-block;
-    font-family: LatoReguar;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     float : left;
-   
 }
 
 .share-btn .firstpage-md {
-    display: none;
     padding: 0;
     justify-content: center;
     margin: 10px -4px 0;
@@ -315,23 +309,15 @@ a {
     overflow: hidden;
     word-wrap: break-word;
 }
-/* .secondpage:before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 30%;
-    height: 40%;
-    width: 10px;
-    background: var(--primary-color);
-    border-radius: 0 5px 5px 0;
-} */
+
 .secondpage-heading{
     color: var(--primary-color);
     margin: 0 0 20px 0;
     display: inline-block;
     position: relative;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 22px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .tabledata{
@@ -347,7 +333,7 @@ a {
     vertical-align: top;
 }
 .tabledata h3{
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1;
     padding-left: 5px;
     margin: 7PX 0;
@@ -405,9 +391,10 @@ a {
     color: var(--primary-color);
     margin: 0 0 20px 0;
     display: inline-block;
-    font-size: 18px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.card{
+.banner{
     text-align: left;
     background-color: var(--text-gray);
     padding: 20px;
@@ -415,22 +402,23 @@ a {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.card .card-title{
-    font-size: 15px;
+.banner .banner-title{
+    font-size: 20px;
     text-align: left;
     margin: 0;
     padding: 0;
     margin-bottom: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.card img{
+.banner img{
     width: 100%;
     height: auto;
 }
-.section-enquiry{
+.enquiry-part{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3px;
+    padding: 5px;
 }
 .price-section{
     font-size: 13px;
@@ -452,4 +440,28 @@ p{
     text-align: center;
     margin-left: 100px;
     height: 200px;
+}
+.paragraph{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.form-data{
+    width: 95%;
+    padding: 7px;
+    color: var(--primary-color);
+    border: 2px solid var(--black-color);
+    border-radius: 5px;
+}
+.form-style{
+    width: 95%;
+    padding: 5px 10px 25px 10px;
+    color: var(--primary-color);
+    border: 2px solid var(--black-color);
+    border-radius: 5px;
+}
+.form-box{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 5px;
 }
