@@ -3,8 +3,8 @@
     --secondry-color: #14b71f;
     --third-color: #f98169;
     --white-color: #fff;
-    --text-color: #555;
-    --text-gray: #999;
+    --text-color: rgb(73, 71, 71);
+    --text-gray: rgb(206, 197, 197);
     --black-color: #000;
     --primary-font: 'Roboto', sans-serif;
     --secondry-font: 'Quicksand', sans-serif;
@@ -19,7 +19,7 @@ body {
     text-align: center;
     box-shadow: 1px 2px 15px #48484833;
     padding-bottom: 85px;
-    background-color: var(--white-color);
+    background-color: var(--third-color);
     background-attachment: fixed;
 }
 
@@ -387,4 +387,60 @@ a {
     border-left: 2px solid var(--primary-color);
     color: var(--white-color);
     background-color: var(--primary-color);
+}
+.thirdpage{
+    text-align: left;
+    padding: 20px;
+    margin-top: 15px;
+    line-height: 22px;
+    font-size: 14px;
+    position: relative;
+    background: var(--white-color);
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.third-heading{
+    color: var(--primary-color);
+    margin: 0 0 20px 0;
+    display: inline-block;
+    font-size: 18px;
+}
+.card{
+    text-align: left;
+    background-color: var(--text-gray);
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.card .card-title{
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.section-enquiry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+.price-section{
+    font-size: 13px;
+    color: var(--black-color);
+}
+.enquiry-btn{
+    padding: 5px 15px;
+    color: var(--white-color);
+    font-size: 14px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+p{
+    font-size: 12px;
 }
