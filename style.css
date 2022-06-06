@@ -420,8 +420,8 @@ a {
     align-items: center;
     padding: 5px;
 }
-.price-section{
-    font-size: 13px;
+.price-details{
+    font-size: 18px;
     color: var(--black-color);
 }
 .enquiry-btn{
@@ -432,7 +432,7 @@ a {
     border-radius: 5px;
 }
 p{
-    font-size: 12px;
+    font-size: 15px;
 }
 .QR-IMAGES{
     max-width: 200px;
@@ -442,8 +442,8 @@ p{
     height: 200px;
 }
 .paragraph{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
 }
 .form-data{
     width: 95%;
@@ -464,4 +464,7 @@ p{
     color: var(--white-color);
     padding: 10px;
     border-radius: 5px;
+}
+.heading-h4{
+    font-size: 20px;
 }
