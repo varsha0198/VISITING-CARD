@@ -91,9 +91,10 @@ body {
 }
 
 .card-holder {
-    font-size: 18px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--primary-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .set-button {
@@ -145,6 +146,8 @@ a {
 
 .addphonebook {
     min-width: 200px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .phonebook-btn a {
@@ -157,51 +160,6 @@ a {
     display: inline-block;
     text-transform: uppercase;
     border-radius: 4px;
-}
-
-.share-number {
-    text-align: left;
-    display: flex;
-    margin-bottom: 10px;
-}
-
-.input-number {
-    position: relative;
-    flex: 1;
-    overflow: hidden;
-    border-radius: 3px 3px 3px 3px;
-}
-
-.input-number label {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    color: var(--text-color);
-    font-size: 13px;
-}
-
-.share-number input {
-    background-color: var(--white-color);
-    border: 1px solid #fff;
-    padding: 11px;
-    outline: none;
-    font-size: 12px;
-    width: 100%;
-    color: var(--black-color);
-    padding-left: 40px;
-}
-
-.whatsapp-btn {
-    padding: 10px;
-    font-size: 13px;
-    background-color: var(--secondry-color);
-    color: var(--white-color);
-    border: none;
-    align-items: center;
-    display: flex;
-    border-radius: 0 3px 3px 0;
-
-
 }
 
 .table-item td {
@@ -226,7 +184,7 @@ a {
 .table-text {
     color: var(--white-color);
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
@@ -238,7 +196,7 @@ a {
     justify-content: center;
     margin: 10px -4px 0;
     border-top: 1px solid var(--third-color);
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .share-btn {
@@ -278,7 +236,7 @@ a {
     font-size: 20px;
     height: 35px;
     width: 35px;
-    border-radius: 5px;
+    border-radius: 0.4em;
 }
 
 .share-btn li {
@@ -311,23 +269,26 @@ a {
 }
 
 .tabledata {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 15px;
     border-collapse: separate;
     border-spacing: 0 0px;
     width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .tabledata .company-data {
     text-align: left;
     min-width: 140px;
+   
     vertical-align: top;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .tabledata h3 {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1;
     padding-left: 5px;
-    margin: 7PX 0;
+    margin: 7px 0;
 }
 .documents {
     display: inline-flex;
@@ -383,11 +344,13 @@ a {
 
 .banner {
     text-align: left;
-    background-color: rgb(241, 237, 237);
+    background-color: rgb(245, 243, 243);
+   
     padding: 20px;
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
+    border-radius: 1em;
 }
 
 .banner .banner-title {
@@ -416,17 +379,20 @@ a {
     color: var(--black-color);
 }
 .price-details{
-    font-size: 17px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .enquiry-btn {
     padding: 5px 15px;
     color: var(--white-color);
-    font-size: 14px;
+    font-size: 13px;
     background-color: var(--primary-color);
     border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .font-style{
     font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .QR-IMAGES {
     max-width: 200px;
@@ -437,6 +403,7 @@ a {
 }
 .heading-h4{
     font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .gallery-img{
     width: 100%;
@@ -452,8 +419,8 @@ a {
   }
 
 .paragraph {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
 }
 
 .form-data {
@@ -477,4 +444,8 @@ a {
     color: var(--white-color);
     padding: 10px;
     border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.copyright{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
