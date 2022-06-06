@@ -35,33 +35,33 @@ body {
 
 .logodata {
     width: 60%;
-    max-width: 500px;
+    max-width: 300px;
     float: left;
-    padding: 5px;
+    text-align: left;
+    padding: 8px;
     position: relative;
     vertical-align: middle;
     text-align: center;
-    height: 30px;
-    padding-bottom: 20px;
+    height: 40px;
 }
 
 .logodata img {
     height: auto;
     max-width: 100%;
     position: absolute;
-    
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto auto;
-    max-height: 100%;
+    max-height: 95%;
 }
 
 .cardname {
     margin: 1px auto 10px auto;
-    font-size: 11px;
+    font-size: 19px;
     text-transform: uppercase;
-    font-family: latobold;
+    font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 0.3px;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .card-holder {
-    font-size: 16px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--primary-color);
 }
@@ -169,7 +169,7 @@ a {
     position: relative;
     flex: 1;
     overflow: hidden;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px 3px 3px 3px;
 }
 
 .input-number label {
@@ -230,7 +230,7 @@ a {
     display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
-    float : left;
+    float: left;
 }
 
 .share-btn .firstpage-md {
@@ -244,14 +244,15 @@ a {
 .share-btn {
     list-style: none;
     display: flex;
-   
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0 60px;
     margin: 0;
 }
 
 .share-btn .firstpage-md li {
     padding: 3px;
-    
+
 }
 
 .share-btn .firstpage-md li i {
@@ -267,7 +268,7 @@ a {
     position: relative;
     margin: 0;
     overflow: hidden;
-  
+
     color: var(--primary-color);
     align-items: center;
     display: flex;
@@ -279,12 +280,14 @@ a {
     width: 35px;
     border-radius: 5px;
 }
-.share-btn li{
+
+.share-btn li {
     padding: 4px;
     list-style: none;
-  
+
 }
-.secondpage{
+
+.secondpage {
     text-align: left;
     padding: 20px;
     margin-top: 15px;
@@ -296,73 +299,69 @@ a {
     word-wrap: break-word;
 }
 
-.secondpage-heading{
+.secondpage-heading {
     color: var(--primary-color);
     margin: 0 0 20px 0;
     display: inline-block;
     position: relative;
     font-size: 22px;
-    
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
-.tabledata{
+
+.tabledata {
     font-size: 14px;
     margin-top: 15px;
     border-collapse: separate;
     border-spacing: 0 0px;
     width: 100%;
 }
-.tabledata .company-data{
+
+.tabledata .company-data {
     text-align: left;
     min-width: 140px;
     vertical-align: top;
 }
-.tabledata h3{
-    font-size: 16px;
+.tabledata h3 {
+    font-size: 15px;
     line-height: 1;
     padding-left: 5px;
     margin: 7PX 0;
 }
-.unorderedlist{
-    list-style-type: disc;
-    padding-left:15px ;
-}
-.other-link .other-link-a{
-    display: block;
-    line-height: 20px;
-    margin-bottom: 5px;
-    word-break: break-all;
-    color: var(--black-color);
-}
-.documents{
+.documents {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 50%;
     border: 2px solid var(--primary-color);
     border-radius: 6px;
     margin-bottom: 10px;
     color: var(--text-gray);
-}.pdf-icon{
+}
+
+.pdf-icon {
     padding: 12px;
     padding-right: 5px;
     font-size: 18px;
 }
-.documents .pdf-edesign{
+
+.documents .pdf-edesign {
     padding: 10px;
     flex: 1;
     white-space: nowrap;
     overflow: hidden;
 }
-.download-icon{
+
+.download-icon {
     font-size: 20px;
     padding: 13px;
     border-left: 2px solid var(--primary-color);
     color: var(--white-color);
     background-color: var(--primary-color);
 }
-.thirdpage{
+
+.thirdpage {
     text-align: left;
     padding: 20px;
     margin-top: 15px;
@@ -373,22 +372,25 @@ a {
     overflow: hidden;
     word-wrap: break-word;
 }
-.third-heading{
+
+.third-heading {
     color: var(--primary-color);
     margin: 0 0 20px 0;
     display: inline-block;
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.banner{
+
+.banner {
     text-align: left;
-    background-color: var(--text-gray);
+    background-color: rgb(241, 237, 237);
     padding: 20px;
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.banner .banner-title{
+
+.banner .banner-title {
     font-size: 20px;
     text-align: left;
     margin: 0;
@@ -396,61 +398,83 @@ a {
     margin-bottom: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.banner img{
+
+.banner img {
     width: 100%;
     height: auto;
 }
-.enquiry-part{
+
+.enquiry-part {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
 }
-.price-details{
-    font-size: 18px;
+
+.price-section {
+    font-size: 13px;
     color: var(--black-color);
 }
-.enquiry-btn{
+.price-details{
+    font-size: 17px;
+}
+.enquiry-btn {
     padding: 5px 15px;
     color: var(--white-color);
     font-size: 14px;
     background-color: var(--primary-color);
     border-radius: 5px;
 }
-p{
-    font-size: 15px;
+.font-style{
+    font-size: 20px;
 }
-.QR-IMAGES{
+.QR-IMAGES {
     max-width: 200px;
     align-items: center;
     text-align: center;
     margin-left: 100px;
     height: 200px;
 }
-.paragraph{
-    
-    font-size: 18px;
+.heading-h4{
+    font-size: 19px;
 }
-.form-data{
+.gallery-img{
+    width: 100%;
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover {
+    transform: scale(1.2);
+  }
+
+.paragraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.form-data {
     width: 95%;
     padding: 7px;
     color: var(--primary-color);
     border: 2px solid var(--black-color);
     border-radius: 5px;
 }
-.form-style{
+
+.form-style {
     width: 95%;
     padding: 5px 10px 50px 10px;
     color: var(--primary-color);
     border: 2px solid var(--black-color);
     border-radius: 5px;
 }
-.form-box{
+
+.form-box {
     background-color: var(--primary-color);
     color: var(--white-color);
     padding: 10px;
     border-radius: 5px;
-}
-.heading-h4{
-    font-size: 20px;
 }
