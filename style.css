@@ -272,18 +272,15 @@ a {
     position: absolute;
     content: '';
     height: 4px;
-    margin-left: 120px;
+    margin-left: 140px;
     left: 0;
     right: 0;
    margin-top: 100px;
-    width: 40%;
+    width: 30%;
     background: var(--primary-color);
     transition:.5s;
     bottom: -12px; 
 }
-
-
-
 .banner {
     text-align: left;
     background-color: rgb(245, 243, 243);
@@ -294,7 +291,6 @@ a {
     margin-bottom: 20px;
     border-radius: 1em;
 }
-
 .banner .banner-title {
     font-size: 20px;
     text-align: left;
@@ -303,19 +299,16 @@ a {
     margin-bottom: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .banner img {
     width: 100%;
     height: auto;
 }
-
 .enquiry-part {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
 }
-
 .price-section {
     font-size: 13px;
     color: var(--black-color);
@@ -364,7 +357,6 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
 }
-
 .form-data {
     width: 95%;
     padding: 7px;
@@ -380,7 +372,6 @@ a {
     border: 2px solid var(--black-color);
     border-radius: 5px;
 }
-
 .form-box {
     background-color: var(--primary-color);
     color: var(--white-color);
@@ -391,9 +382,20 @@ a {
 .copyright{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.hr-class{
-    width: 25px;
-    float: left;
-    height: 2px;
-   
+.underline1{
+    text-decoration: none; 
+    position: relative; 
+}
+.underline1:after {
+    position: absolute;
+    content: '';
+    height: 4px;
+    margin-left: 100px;
+    left: 0;
+    right: 0;
+   margin-top: 100px;
+    width: 50%;
+    background: var(--primary-color);
+    transition:.5s;
+    bottom: -12px; 
 }
