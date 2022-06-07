@@ -6,7 +6,6 @@
     --text-gray: rgb(206, 197, 197);
     --black-color: #000;
 }
-
 body {
     margin: 0 auto;
     color: var(--text-color);
@@ -15,10 +14,8 @@ body {
     text-align: center;
     box-shadow: 1px 2px 15px #48484833;
     padding-bottom: 30px;
-    background-color: var(--white-color);
     background-attachment: fixed;
 }
-
 .firstpage {
     display: flex;
     justify-content: center;
@@ -32,39 +29,6 @@ body {
     background: var(--white-color);
     position: relative;
 }
-
-.logodata {
-    width: 60%;
-    max-width: 300px;
-    float: left;
-    text-align: left;
-    padding: 8px;
-    position: relative;
-    vertical-align: middle;
-    text-align: center;
-    height: 40px;
-}
-
-.logodata img {
-    height: auto;
-    max-width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto auto;
-    max-height: 95%;
-}
-
-.cardname {
-    margin: 1px auto 10px auto;
-    font-size: 19px;
-    text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 0.3px;
-}
-
 .image-port {
     width: 120px;
     height: 120px;
@@ -73,7 +37,6 @@ body {
     position: relative;
     background: var(--white-color);
 }
-
 .image-port img {
     position: absolute;
     top: 0;
@@ -82,36 +45,29 @@ body {
     right: 0;
 
 }
-
 .image-md {
     max-width: 100%;
     height: auto;
     width: auto;
     border-radius: 50%;
 }
-
 .card-holder {
-    font-size: 24px;
+    font-size: 1.9em;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--primary-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .set-button {
     display: flex;
     margin-top: 20px;
     margin-bottom: 5px;
-
 }
-
 .iconname {
     color: var(--text-gray);
     text-decoration: none;
     list-style: none;
     font-size: 12px;
-
 }
-
 .iconbtn {
     display: flex;
     justify-content: center;
@@ -125,49 +81,42 @@ body {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-
 a {
     text-decoration: none;
-    margin: 0 8px;
+    margin: 0 5px;
 }
-
 .firstpagefooter {
     background-color: var(--primary-color);
     color: #ffffff;
     padding: 20px;
     margin-top: -1px;
 }
-
 .phonebook-btn {
     display: flex;
     justify-content: center;
 
 }
-
 .addphonebook {
     min-width: 200px;
     font-size: 17px;
+    height: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .phonebook-btn a {
     padding: 10px 2px;
     font-size: 12px;
     color: var(--primary-color);
     background: var(--white-color);
-    margin: 5px;
+    margin-top: 5px;
     border: 2px solid var(--white-color);
     display: inline-block;
     text-transform: uppercase;
     border-radius: 4px;
 }
-
 .table-item td {
     padding: 5px 0;
     text-align: left;
-
 }
-
 .icons-md {
     display: inline-block;
     vertical-align: middle;
@@ -177,10 +126,8 @@ a {
     line-height: 30px;
     color: var(--primary-color);
     background-color: var(--white-color);
-
     border-radius: 5px;
 }
-
 .table-text {
     color: var(--white-color);
     margin-left: 10px;
@@ -190,7 +137,6 @@ a {
     text-align: left;
     float: left;
 }
-
 .share-btn .firstpage-md {
     padding: 0;
     justify-content: center;
@@ -198,21 +144,17 @@ a {
     border-top: 1px solid var(--third-color);
     padding-top: 5px;
 }
-
 .share-btn {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 60px;
-    margin: 0;
+    padding: 0 50px;
+    margin: 0; 
 }
-
 .share-btn .firstpage-md li {
     padding: 3px;
-
 }
-
 .share-btn .firstpage-md li i {
     padding: 0;
     height: 30px;
@@ -220,13 +162,11 @@ a {
     border-radius: 5px;
     font-size: 15px;
 }
-
 .share-btn li i {
     box-sizing: border-box;
     position: relative;
     margin: 0;
     overflow: hidden;
-
     color: var(--primary-color);
     align-items: center;
     display: flex;
@@ -238,36 +178,10 @@ a {
     width: 35px;
     border-radius: 0.4em;
 }
-
 .share-btn li {
-    padding: 4px;
+    padding: 8px;
     list-style: none;
-
 }
-
-.secondpage {
-    text-align: left;
-    padding: 20px;
-    margin-top: 15px;
-    line-height: 22px;
-    font-size: 14px;
-    position: relative;
-    background: var(--white-color);
-    overflow: hidden;
-    word-wrap: break-word;
-}
-
-.secondpage-heading {
-    color: var(--primary-color);
-    margin: 0 0 20px 0;
-    display: inline-block;
-    position: relative;
-    font-size: 22px;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
 .tabledata {
     font-size: 16px;
     margin-top: 15px;
@@ -276,11 +190,9 @@ a {
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 .tabledata .company-data {
     text-align: left;
     min-width: 140px;
-   
     vertical-align: top;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -294,11 +206,13 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
-    border: 2px solid var(--primary-color);
+    width: 70%;
+    border: 2px solid var(--white-color);
     border-radius: 6px;
     margin-bottom: 10px;
     color: var(--text-gray);
+    background-color: var(--white-color);
+    height: 3.2em;
 }
 
 .pdf-icon {
@@ -332,14 +246,18 @@ a {
     background: var(--white-color);
     overflow: hidden;
     word-wrap: break-word;
+    box-shadow:  0 11px 35px rgb(0 0 0 / 11%);
 }
 
 .third-heading {
     color: var(--primary-color);
-    margin: 0 0 20px 0;
+    margin: 0 0 40px 0;
     display: inline-block;
     font-size: 22px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.3em;
+    color: var(--primary-color);
+    text-shadow: 0 0 1px;
 }
 
 .banner {
@@ -448,4 +366,10 @@ a {
 }
 .copyright{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hr-class{
+    width: 25px;
+    float: left;
+    height: 2px;
+   
 }
