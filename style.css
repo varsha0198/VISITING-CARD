@@ -83,7 +83,7 @@ body {
 }
 a {
     text-decoration: none;
-    margin: 0 5px;
+   
 }
 .firstpagefooter {
     background-color: var(--primary-color);
@@ -93,11 +93,11 @@ a {
 }
 .phonebook-btn {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 .addphonebook {
-    min-width: 200px;
+   
     font-size: 17px;
     height: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -258,6 +258,12 @@ a {
     font-size: 2.3em;
     color: var(--primary-color);
     text-shadow: 0 0 1px;
+}
+.third-heading::after {
+    content:'' ;
+    width:10px;
+    height: 10px;
+    background-color: red;
 }
 
 .banner {
